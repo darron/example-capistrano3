@@ -1,0 +1,12 @@
+---
+user: app
+group: app
+timeout: 30
+wait: 30
+log: /var/log/application/thin.log
+pid: /var/run/application/thin.pid
+max_conns: 1024
+environment: production
+max_persistent_conns: 512
+servers: 3
+daemonize: true
