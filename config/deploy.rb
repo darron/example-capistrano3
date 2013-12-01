@@ -2,7 +2,7 @@ SSHKit.config.command_map[:rake] = "bundle exec rake"
 
 set :application, 'application'
 set :github_user, 'darron'
-set :github_repo, 'example-capistrano3-template'
+set :github_repo, 'example-capistrano3'
 set :repo_url, "git@github.com:#{github_user}/#{github_repo}.git"
 
 set :deploy_to, "/home/app/#{application}"
